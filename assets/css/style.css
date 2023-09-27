@@ -62,3 +62,98 @@ text-align: center;
 padding: 18%;;
 text-shadow: 10px 10px 10px #000;;
 }
+main{
+margin: 0;
+}
+
+#apresentacao{
+width: 90%;
+display: block;
+margin: 50px auto;
+max-width: 1500px;
+min-width: 320px;
+}
+
+.pizza{
+width: 30%;
+float: left;
+background-color: aliceblue;
+box-shadow: 10px 5px #000
+}
+
+.pizza img{
+width: 100%;
+max-height: 300px;
+object-fit: cover;
+position:top center;
+border-top-right-radius: 5px;
+border-top-left-radius: 5px;
+}
+
+.pizza h2{
+text-align: center;
+margin-bottom: 0;
+
+}
+ .pizza p{
+text-align: center;
+padding: 5%;
+margin-top: 1%;
+color: #000;
+font-size: 90%;
+
+
+
+ }
+
+.pizza a{
+display: block;
+text-align: center;
+background-color: darkgreen;
+color: aliceblue;
+padding: 3%;
+text-decoration: none;
+border-top-right-radius: 5px;
+border-top-left-radius: 5px;
+
+}
+
+.pizza a:hover{
+background-color: darkgreen;
+
+}
+
+.direita{
+float: right;
+
+}
+
+.centro{
+margin-left: 5%;
+
+}
+footer{
+margin: 50px;
+width: 100%;
+background-color: rgb(245, 14, 14);
+}
+
+footer p{
+text-align: center;
+font-family: cursive;
+font-weight: 700;
+color: blue;
+}
+
+main{
+height: 500px;
+width: 100%;
+}
+
+body{
+min-height: 100%;
+display: contents;
+flex-direction: column;
+
+
+}
